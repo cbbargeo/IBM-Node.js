@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Gerenciamento de Livros</title>
+</head>
+<body>
+    <h1>Sistema de Gerenciamento de Livros</h1>
+    <label for="bookName">Nome do Livro:</label><br>
+    <input type="text" id="bookName"><br><br>
+    <label for="authorName">Nome do Autor:</label><br>
+    <textarea id="authorName" rows="4"></textarea><br><br>
+    <label for="bookDescription">Descrição do Livro:</label><br>
+    <textarea id="bookDescription" rows="4"></textarea><br><br>
+    <label for="pagesNumber">Número de Páginas:</label><br>
+    <input type="number" id="pagesNumber"><br><br>
+    <button onclick="addBook()">Adicionar Livro</button>
+    <button onclick="clearInputs()">Limpar Informaçãoes</button>
+
+    <h2>Livros</h2>
+    <div id="books">
+        <!-- os livros serão exibidos aqui -->
+    </div>
+    <script src="./book_system.js"></script>
+</body>
+</html>
