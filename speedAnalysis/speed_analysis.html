@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Speed Test Analysis</title>
+</head>
+<body>
+  <h1>Speed Typing Analysis</h1>
+
+    <label for="inputText">Digite o seguinte texto:</label><br>
+    <textarea id="inputText"  cols="50" rows="5" readonly placeholder="Prepare-se para digitar..."></textarea><br>
+
+    <label for="userInput">Sua digitação:</label><br>
+    <textarea id="userInput"  cols="50" rows="5" placeholder="Comece a digitar quando estiver pronto"></textarea><br>
+    <button onclick="startTest()">Iniciar Teste</button>
+    <button onclick="endTest()">Finalizar Teste</button>
+    <div id="output"></div>
+    <script src="./speed_analysis.js"></script>
+</body>
+</html>
