@@ -34,5 +34,7 @@ function toggleTask(index) {
 addTaskBtn.addEventListener("click", addTask);
 clearCompletedBtn.addEventListener("click", clearCompletedTasks);
 
+
+
  displayTasks();
 
