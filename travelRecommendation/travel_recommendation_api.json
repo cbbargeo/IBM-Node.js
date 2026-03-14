@@ -1,0 +1,81 @@
+{
+    "countries": [
+        {
+            "id": 1,
+            "name": "Australia",
+            "cities": [
+                {
+                    "name": "Sydney, Australia",
+                    "imageUrl": "./images/sydney.svg",
+                    "description": "Uma cidade vibrante conhecida por marcos icônicos como a Opera House de Sydney e a Sydney Harbour Bridge."
+                },
+                {
+                    "name": "Melbourne, Australia",
+                    "imageUrl": "./images/melbourne.svg",
+                    "description": "Um polo cultural famoso por sua arte, gastronomia e bairros diversos."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Japan",
+            "cities": [
+                {
+                    "name": "Tokyo, Japan",
+                    "imageUrl": "./images/tokyo.svg",
+                    "description": "Uma metropole movimentada que combina tradicao e modernidade, famosa pelas cerejeiras e pela rica cultura."
+                },
+                {
+                    "name": "Kyoto, Japan",
+                    "imageUrl": "./images/kyoto.svg",
+                    "description": "Conhecida por seus templos historicos, jardins e tradicionais casas de cha."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Brazil",
+            "cities": [
+                {
+                    "name": "Rio de Janeiro, Brazil",
+                    "imageUrl": "./images/rio.svg",
+                    "description": "Uma cidade animada conhecida por suas praias deslumbrantes, carnaval vibrante e pontos turisticos icônicos."
+                },
+                {
+                    "name": "Sao Paulo, Brazil",
+                    "imageUrl": "./images/saopaulo.svg",
+                    "description": "Um centro financeiro com cultura diversa, artes e vida noturna vibrante."
+                }
+            ]
+        }
+    ],
+    "temples": [
+        {
+            "id": 1,
+            "name": "Angkor Wat, Cambodia",
+            "imageUrl": "./images/angkor.svg",
+            "description": "Um Patrimonio Mundial da UNESCO e o maior monumento religioso do mundo."
+        },
+        {
+            "id": 2,
+            "name": "Taj Mahal, India",
+            "imageUrl": "./images/tajmahal.svg",
+            "description": "Um simbolo iconico de amor e uma obra-prima da arquitetura mogol."
+        }
+    ],
+    "beaches": [
+        {
+            "id": 1,
+            "name": "Bora Bora, French Polynesia",
+            "imageUrl": "./images/borabora.svg",
+            "description": "Uma ilha conhecida por suas aguas azul-turquesa deslumbrantes e bangalos luxuosos sobre a agua."
+        },
+        {
+            "id": 2,
+            "name": "Copacabana Beach, Brazil",
+            "imageUrl": "./images/copacabana.svg",
+            "description": "Uma praia famosa no Rio de Janeiro, Brasil, com atmosfera vibrante e vistas panoramicas."
+        }
+    ]
+}
+    

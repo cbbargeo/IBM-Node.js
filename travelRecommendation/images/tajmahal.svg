@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6b5d95"/>
+      <stop offset="100%" stop-color="#b09ecf"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="220" cy="170" r="78" fill="#ffe4a3" opacity="0.7"/>
+  <path d="M130 625 Q 365 500 600 625 T 1070 625 L1070 780 L130 780 Z" fill="#4a3f6b" opacity="0.45"/>
+  <text x="600" y="382" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="94" font-weight="700">Taj Mahal</text>
+  <text x="600" y="452" text-anchor="middle" fill="#f5ecff" font-family="Segoe UI, Arial, sans-serif" font-size="40">India</text>
+</svg>
